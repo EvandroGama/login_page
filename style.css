@@ -93,10 +93,27 @@ body * {
     color: #f0ffff94;
 }
 
+.password{
+    color: #f0ffff94;
+    display: block;
+    background: none;
+    border: none;
+    margin-top: 0;
+    width: 100%;
+    text-align: left;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+.password:hover{
+    color: rgb(169, 233, 246);
+    transition: .3s ease; 
+}
+
 .btn-login{
     width: 100%;
     padding: 16px 0px;
-    margin: 25px;
+    margin: 25px 25px 10px;
     border: none;
     border-radius: 8px;
     outline: none;
@@ -110,21 +127,27 @@ body * {
 }
 
 .btn-login:hover {
-    background-color:  rgb(200, 238, 255); 
+    background-color:  rgb(103, 166, 179); 
     color:black; 
     transition: .3s ease; 
+    box-shadow: none;
 }
 
 .cardLogin p{
+    width: 100%;
+    text-align: left;
     color: rgb(169, 233, 246);
-    margin-top: 0;
+    margin-top: 10px;
     margin-bottom: 0;
+    margin-left: 13px;
+    font-size: 10pt;
+    
 }
 
 .btn-registration{
     width: 100%;
     padding: 16px 0px;
-    margin: 25px;
+    margin: 8px 25px 10px;
     border: solid 1px rgb(169, 233, 246);
     border-radius: 8px;
     outline: none;
