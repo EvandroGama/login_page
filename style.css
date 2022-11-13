@@ -115,6 +115,33 @@ body * {
     transition: .3s ease; 
 }
 
+.cardLogin p{
+    color: rgb(169, 233, 246);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.btn-registration{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: solid 1px rgb(169, 233, 246);
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    background: none;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #87cfdeff;
+    cursor: pointer;
+}
+
+.btn-registration:hover {
+    background-color:  rgb(200, 238, 255); 
+    color:black; 
+    transition: .3s ease; 
+}
+
 @media only screen and (max-width: 950px){
     .cardLogin {
         width: 85%;
