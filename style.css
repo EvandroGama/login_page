@@ -198,4 +198,12 @@ body * {
     .cardLogin {
         width: 90%;
     }
+
+    .textfield label{
+        display: none;
+    }
+
+    .cardLogin p{
+        display: none;
+    }
 }
